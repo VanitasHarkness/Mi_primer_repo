@@ -1,0 +1,1117 @@
+
+temil@Vanitas MINGW64 ~
+$ git config --global user.name "VanitasHarkness"
+
+temil@Vanitas MINGW64 ~
+$ git config --global user.email "temiliano970@gmail.com"
+
+temil@Vanitas MINGW64 ~
+$ git config --global core.autocrlf true
+
+temil@Vanitas MINGW64 ~
+$ git config --global core.editor "nano -W"
+
+temil@Vanitas MINGW64 ~
+$ got config --global init.defaultBranch main
+bash: got: command not found
+
+temil@Vanitas MINGW64 ~
+$ git config --global --edit
+
+temil@Vanitas MINGW64 ~
+$ git config -h
+usage: git config list [<file-option>] [<display-option>] [--includes]
+   or: git config get [<file-option>] [<display-option>] [--includes] [--all] [--regexp] [--value=<pattern>] [--fixed-value] [--default=<default>] [--url=<url>] <name>
+   or: git config set [<file-option>] [--type=<type>] [--all] [--value=<pattern>] [--fixed-value] <name> <value>
+   or: git config unset [<file-option>] [--all] [--value=<pattern>] [--fixed-value] <name>
+   or: git config rename-section [<file-option>] <old-name> <new-name>
+   or: git config remove-section [<file-option>] <name>
+   or: git config edit [<file-option>]
+   or: git config [<file-option>] --get-colorbool <name> [<stdout-is-tty>]
+
+
+temil@Vanitas MINGW64 ~
+$ $ git config --global init.defaultBranch main
+bash: $: command not found
+
+temil@Vanitas MINGW64 ~
+$ git config --global init.defaultBranch main
+
+temil@Vanitas MINGW64 ~
+$ mkdir curso_intersemestarl
+
+temil@Vanitas MINGW64 ~
+$ cd curso_intersemestral
+bash: cd: curso_intersemestral: No such file or directory
+
+temil@Vanitas MINGW64 ~
+$ cd /d/Users/Vanitas/Documents/
+bash: cd: /d/Users/Vanitas/Documents/: No such file or directory
+
+temil@Vanitas MINGW64 ~
+$ ls
+ -1.14-windows.xml       Music/
+ AppData/                NTUSER.DAT
+'Configuración local'@   ntuser.dat.LOG1
+ Contacts/               ntuser.dat.LOG2
+ Cookies@                NTUSER.DAT{977a340a-14da-11f0-8b3e-a8e291c21b2b}.TM.blf
+ curso_intersemestarl/   NTUSER.DAT{977a340a-14da-11f0-8b3e-a8e291c21b2b}.TMContainer00000000000000000001.regtrans-ms
+'Datos de programa'@     NTUSER.DAT{977a340a-14da-11f0-8b3e-a8e291c21b2b}.TMContainer00000000000000000002.regtrans-ms
+ Documents/              ntuser.ini
+ Downloads/              OneDrive/
+'Entorno de red'@        Plantillas@
+ Favorites/              Reciente@
+ Impresoras@            'Saved Games'/
+ Links/                  Searches/
+'Menú Inicio'@           SendTo@
+'Mis documentos'@        Videos/
+
+temil@Vanitas MINGW64 ~
+$ cd /d/Users/Vanitas/Downloads/
+bash: cd: /d/Users/Vanitas/Downloads/: No such file or directory
+
+temil@Vanitas MINGW64 ~
+$ cd /d/Users/Vanitas/curso_intersemestral/
+bash: cd: /d/Users/Vanitas/curso_intersemestral/: No such file or directory
+
+temil@Vanitas MINGW64 ~
+$ ll
+total 27241
+-rw-r--r-- 1 temil 197609     6579 mar. 26 23:33  -1.14-windows.xml
+drwxr-xr-x 1 temil 197609        0 ago. 21  2025  AppData/
+lrwxrwxrwx 1 temil 197609       28 ago. 21  2025 'Configuración local' -> /c/Users/temil/AppData/Local/
+drwxr-xr-x 1 temil 197609        0 ago. 21  2025  Contacts/
+lrwxrwxrwx 1 temil 197609       58 ago. 21  2025  Cookies -> /c/Users/temil/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 temil 197609        0 jun. 18 10:25  curso_intersemestarl/
+lrwxrwxrwx 1 temil 197609       30 ago. 21  2025 'Datos de programa' -> /c/Users/temil/AppData/Roaming/
+drwxr-xr-x 1 temil 197609        0 ago. 21  2025  Documents/
+drwxr-xr-x 1 temil 197609        0 jun. 17 19:59  Downloads/
+lrwxrwxrwx 1 temil 197609       66 ago. 21  2025 'Entorno de red' -> '/c/Users/temil/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+drwxr-xr-x 1 temil 197609        0 ago. 21  2025  Favorites/
+lrwxrwxrwx 1 temil 197609       66 ago. 21  2025  Impresoras -> '/c/Users/temil/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+drwxr-xr-x 1 temil 197609        0 ago. 21  2025  Links/
+lrwxrwxrwx 1 temil 197609       59 ago. 21  2025 'Menú Inicio' -> '/c/Users/temil/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 temil 197609       24 ago. 21  2025 'Mis documentos' -> /c/Users/temil/Documents/
+drwxr-xr-x 1 temil 197609        0 ago. 21  2025  Music/
+-rw-r--r-- 1 temil 197609 20971520 jun. 17 23:50  NTUSER.DAT
+-rw-r--r-- 1 temil 197609  5488640 ago. 21  2025  ntuser.dat.LOG1
+-rw-r--r-- 1 temil 197609   131072 ago. 21  2025  ntuser.dat.LOG2
+-rw-r--r-- 1 temil 197609    65536 ago. 21  2025  NTUSER.DAT{977a340a-14da-11f0-8b3e-a8e291c21b2b}.TM.blf
+-rw-r--r-- 1 temil 197609   524288 ago. 21  2025  NTUSER.DAT{977a340a-14da-11f0-8b3e-a8e291c21b2b}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 temil 197609   524288 ago. 21  2025  NTUSER.DAT{977a340a-14da-11f0-8b3e-a8e291c21b2b}.TMContainer00000000000000000002.regtrans-ms
+-rw-r--r-- 1 temil 197609       20 ago. 21  2025  ntuser.ini
+drwxr-xr-x 1 temil 197609        0 jun. 18 10:02  OneDrive/
+lrwxrwxrwx 1 temil 197609       58 ago. 21  2025  Plantillas -> /c/Users/temil/AppData/Roaming/Microsoft/Windows/Templates/
+lrwxrwxrwx 1 temil 197609       55 ago. 21  2025  Reciente -> /c/Users/temil/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 temil 197609        0 ago. 21  2025 'Saved Games'/
+drwxr-xr-x 1 temil 197609        0 ago. 21  2025  Searches/
+lrwxrwxrwx 1 temil 197609       55 ago. 21  2025  SendTo -> /c/Users/temil/AppData/Roaming/Microsoft/Windows/SendTo/
+drwxr-xr-x 1 temil 197609        0 jun. 10 21:44  Videos/
+
+temil@Vanitas MINGW64 ~
+$ owd
+bash: owd: command not found
+
+temil@Vanitas MINGW64 ~
+$ pwd
+/c/Users/temil
+
+temil@Vanitas MINGW64 ~
+$ cd D
+Datos de programa/ Documents/         Downloads/
+
+temil@Vanitas MINGW64 ~
+$ cd D
+Datos de programa/ Documents/         Downloads/
+
+temil@Vanitas MINGW64 ~
+$ cd D
+Datos de programa/ Documents/         Downloads/
+
+temil@Vanitas MINGW64 ~
+$ cd D
+Datos de programa/ Documents/         Downloads/
+
+temil@Vanitas MINGW64 ~
+$ cd D
+Datos de programa/ Documents/         Downloads/
+
+temil@Vanitas MINGW64 ~
+$ cd D
+Datos de programa/ Documents/         Downloads/
+
+temil@Vanitas MINGW64 ~
+$ cd Documents/
+
+temil@Vanitas MINGW64 ~/Documents
+$ mkdir curso_intersemestral
+
+temil@Vanitas MINGW64 ~/Documents
+$ cd curso_intersemestral/
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral
+$ git init
+Initialized empty Git repository in C:/Users/temil/Documents/curso_intersemestral/.git/
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral (main)
+$ mkdir Mi_primer_Repo
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral (main)
+$ cd Mi_primer_Repo/
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ mkdir Subproyecto1
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ cd Subproyecto1/
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/Subproyecto1 (main)
+$ git init
+Initialized empty Git repository in C:/Users/temil/Documents/curso_intersemestral/Mi_primer_Repo/Subproyecto1/.git/
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/Subproyecto1 (main)
+$ ls -a
+./  ../  .git/
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/Subproyecto1 (main)
+$ rm -rf .git
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/Subproyecto1 (main)
+$ ls -a
+./  ../
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/Subproyecto1 (main)
+$ cd ..
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ ls
+Subproyecto1/
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ nano prueba.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git add prueba.txt
+fatal: pathspec 'prueba.txt' did not match any files
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ nano prueba.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git commit -m "Comenzando archivo de prueba y registro de cambios"
+On branch main
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git log
+fatal: your current branch 'main' does not have any commits yet
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ nano prueba.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git add prueba.txt
+warning: in the working copy of 'Mi_primer_Repo/prueba.txt', LF will be replaced by CRLF the next time Git touches it
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git commit -m "Comenzando archivo de prueba y registro de cambios"
+[main (root-commit) 588c652] Comenzando archivo de prueba y registro de cambios
+ 1 file changed, 2 insertions(+)
+ create mode 100644 Mi_primer_Repo/prueba.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git log
+commit 588c652ac1261a9575c6c787570f88051a2cd5bd (HEAD -> main)
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:49:05 2026 -0600
+
+    Comenzando archivo de prueba y registro de cambios
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git diff
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ nano prueba.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git add prueba.txt
+warning: in the working copy of 'Mi_primer_Repo/prueba.txt', LF will be replaced by CRLF the next time Git touches it
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git commit -m "Segunda prueba"
+[main 8f5bbbc] Segunda prueba
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git log
+commit 8f5bbbc537f428f209247799a9d8578fb70cff4e (HEAD -> main)
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:52:59 2026 -0600
+
+    Segunda prueba
+
+commit 588c652ac1261a9575c6c787570f88051a2cd5bd
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:49:05 2026 -0600
+
+    Comenzando archivo de prueba y registro de cambios
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ nano prueba.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git add prueba.txt
+warning: in the working copy of 'Mi_primer_Repo/prueba.txt', LF will be replaced by CRLF the next time Git touches it
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git diff
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git diff --staged
+diff --git a/Mi_primer_Repo/prueba.txt b/Mi_primer_Repo/prueba.txt
+index e82a546..650771c 100644
+--- a/Mi_primer_Repo/prueba.txt
++++ b/Mi_primer_Repo/prueba.txt
+@@ -1,2 +1,3 @@
+ Primer archivo en el que rastrearemos cambios
+ Seginda línea editada
++Tercera linea
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git commit -m "Tercera línea"
+[main 959b798] Tercera línea
+ 1 file changed, 1 insertion(+)
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git log
+commit 959b798414d14b72f28ccf67b74b6c1473a626c5 (HEAD -> main)
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:56:21 2026 -0600
+
+    Tercera línea
+
+commit 8f5bbbc537f428f209247799a9d8578fb70cff4e
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:52:59 2026 -0600
+
+    Segunda prueba
+
+commit 588c652ac1261a9575c6c787570f88051a2cd5bd
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:49:05 2026 -0600
+
+    Comenzando archivo de prueba y registro de cambios
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git log -1
+commit 959b798414d14b72f28ccf67b74b6c1473a626c5 (HEAD -> main)
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:56:21 2026 -0600
+
+    Tercera línea
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git log -2
+commit 959b798414d14b72f28ccf67b74b6c1473a626c5 (HEAD -> main)
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:56:21 2026 -0600
+
+    Tercera línea
+
+commit 8f5bbbc537f428f209247799a9d8578fb70cff4e
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:52:59 2026 -0600
+
+    Segunda prueba
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git log --oneline
+959b798 (HEAD -> main) Tercera línea
+8f5bbbc Segunda prueba
+588c652 Comenzando archivo de prueba y registro de cambios
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ mkdir dic_prueba
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ touch dic_prueba/prueba1.txt/prueba2.txt/prueba3.txt
+touch: cannot touch 'dic_prueba/prueba1.txt/prueba2.txt/prueba3.txt': No such file or directory
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git add dic_prueba
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ nano mi_archivo.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git add mi_archivo.txt
+warning: in the working copy of 'Mi_primer_Repo/mi_archivo.txt', LF will be replaced by CRLF the next time Git touches it
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   mi_archivo.txt
+
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git commin -m "lograste guardar algo"
+git: 'commin' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git commit -m "lograste guardar algo"
+[main 829f54f] lograste guardar algo
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Mi_primer_Repo/mi_archivo.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git log
+commit 829f54f86a28e09840664e7ac1330b645294e1fa (HEAD -> main)
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 11:04:29 2026 -0600
+
+    lograste guardar algo
+
+commit 959b798414d14b72f28ccf67b74b6c1473a626c5
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:56:21 2026 -0600
+
+    Tercera línea
+
+commit 8f5bbbc537f428f209247799a9d8578fb70cff4e
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:52:59 2026 -0600
+
+    Segunda prueba
+
+commit 588c652ac1261a9575c6c787570f88051a2cd5bd
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:49:05 2026 -0600
+
+    Comenzando archivo de prueba y registro de cambios
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ nano prueba1.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ nanu prueba.txt
+bash: nanu: command not found
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ nano prueba.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ nano mi_archivo.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git add prueba.txt
+warning: in the working copy of 'Mi_primer_Repo/prueba.txt', LF will be replaced by CRLF the next time Git touches it
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git add mi_archivo.txt
+warning: in the working copy of 'Mi_primer_Repo/mi_archivo.txt', LF will be replaced by CRLF the next time Git touches it
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git commit -m "Agregaste 2 archivos"
+[main 5d0e943] Agregaste 2 archivos
+ 2 files changed, 3 insertions(+)
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git log
+commit 5d0e94312f454ba6f69fc8ef74131988f7801b96 (HEAD -> main)
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 11:10:32 2026 -0600
+
+    Agregaste 2 archivos
+
+commit 829f54f86a28e09840664e7ac1330b645294e1fa
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 11:04:29 2026 -0600
+
+    lograste guardar algo
+
+commit 959b798414d14b72f28ccf67b74b6c1473a626c5
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:56:21 2026 -0600
+
+    Tercera línea
+
+commit 8f5bbbc537f428f209247799a9d8578fb70cff4e
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:52:59 2026 -0600
+
+    Segunda prueba
+
+commit 588c652ac1261a9575c6c787570f88051a2cd5bd
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:49:05 2026 -0600
+
+    Comenzando archivo de prueba y registro de cambios
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git log --oneline
+5d0e943 (HEAD -> main) Agregaste 2 archivos
+829f54f lograste guardar algo
+959b798 Tercera línea
+8f5bbbc Segunda prueba
+588c652 Comenzando archivo de prueba y registro de cambios
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ nano prueba.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ cat prueba.txt
+Primer archivo en el que rastrearemos cambios
+Seginda línea editada
+Tercera linea
+4ta linea
+5ta linea
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git diff HEAD prueba.txt
+warning: in the working copy of 'Mi_primer_Repo/prueba.txt', LF will be replaced by CRLF the next time Git touches it
+diff --git a/Mi_primer_Repo/prueba.txt b/Mi_primer_Repo/prueba.txt
+index e88ade0..0a5e5b0 100644
+--- a/Mi_primer_Repo/prueba.txt
++++ b/Mi_primer_Repo/prueba.txt
+@@ -2,3 +2,4 @@ Primer archivo en el que rastrearemos cambios
+ Seginda línea editada
+ Tercera linea
+ 4ta linea
++5ta linea
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git log
+commit 5d0e94312f454ba6f69fc8ef74131988f7801b96 (HEAD -> main)
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 11:10:32 2026 -0600
+
+    Agregaste 2 archivos
+
+commit 829f54f86a28e09840664e7ac1330b645294e1fa
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 11:04:29 2026 -0600
+
+    lograste guardar algo
+
+commit 959b798414d14b72f28ccf67b74b6c1473a626c5
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:56:21 2026 -0600
+
+    Tercera línea
+
+commit 8f5bbbc537f428f209247799a9d8578fb70cff4e
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:52:59 2026 -0600
+
+    Segunda prueba
+
+commit 588c652ac1261a9575c6c787570f88051a2cd5bd
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:49:05 2026 -0600
+
+    Comenzando archivo de prueba y registro de cambios
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git diff 959b798414d14b72f28ccf67b74b6c1473a626c5
+warning: in the working copy of 'Mi_primer_Repo/prueba.txt', LF will be replaced by CRLF the next time Git touches it
+diff --git a/Mi_primer_Repo/mi_archivo.txt b/Mi_primer_Repo/mi_archivo.txt
+new file mode 100644
+index 0000000..8957892
+--- /dev/null
++++ b/Mi_primer_Repo/mi_archivo.txt
+@@ -0,0 +1,3 @@
++Hola a todooooooooooos
++agrego 2da línea
++
+diff --git a/Mi_primer_Repo/prueba.txt b/Mi_primer_Repo/prueba.txt
+index 650771c..0a5e5b0 100644
+--- a/Mi_primer_Repo/prueba.txt
++++ b/Mi_primer_Repo/prueba.txt
+@@ -1,3 +1,5 @@
+ Primer archivo en el que rastrearemos cambios
+ Seginda línea editada
+ Tercera linea
++4ta linea
++5ta linea
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ cat prueba.txt
+Primer archivo en el que rastrearemos cambios
+Seginda línea editada
+Tercera linea
+4ta linea
+5ta linea
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git chechout HEAD prueba.txt
+git: 'chechout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git ckeckout HEAD prueba.txt
+git: 'ckeckout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ gtit chechout HEAD prueba.txt
+bash: gtit: command not found
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git chechout HEAD prueba.txt
+git: 'chechout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git checkout HEAD prueba.txt
+Updated 1 path from 0a1220e
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ cat prueba.txt
+Primer archivo en el que rastrearemos cambios
+Seginda línea editada
+Tercera linea
+4ta linea
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git checkout HEAD prueba.txt
+Updated 0 paths from 0a1220e
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ cat prueba.txt
+Primer archivo en el que rastrearemos cambios
+Seginda línea editada
+Tercera linea
+4ta linea
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git log
+commit 5d0e94312f454ba6f69fc8ef74131988f7801b96 (HEAD -> main)
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 11:10:32 2026 -0600
+
+    Agregaste 2 archivos
+
+commit 829f54f86a28e09840664e7ac1330b645294e1fa
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 11:04:29 2026 -0600
+
+    lograste guardar algo
+
+commit 959b798414d14b72f28ccf67b74b6c1473a626c5
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:56:21 2026 -0600
+
+    Tercera línea
+
+commit 8f5bbbc537f428f209247799a9d8578fb70cff4e
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:52:59 2026 -0600
+
+    Segunda prueba
+
+commit 588c652ac1261a9575c6c787570f88051a2cd5bd
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:49:05 2026 -0600
+
+    Comenzando archivo de prueba y registro de cambios
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git log --oneline
+5d0e943 (HEAD -> main) Agregaste 2 archivos
+829f54f lograste guardar algo
+959b798 Tercera línea
+8f5bbbc Segunda prueba
+588c652 Comenzando archivo de prueba y registro de cambios
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git revert 829f54f
+CONFLICT (modify/delete): Mi_primer_Repo/mi_archivo.txt deleted in parent of 829f54f (lograste guardar algo) and modified in HEAD.  Version HEAD of Mi_primer_Repo/mi_archivo.txt left in tree.
+error: could not revert 829f54f... lograste guardar algo
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git revert --continue".
+hint: You can instead skip this commit with "git revert --skip".
+hint: To abort and get back to the state before "git revert",
+hint: run "git revert --abort".
+hint: Disable this message with "git config set advice.mergeConflict false"
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main|REVERTING)
+$ git status
+On branch main
+You are currently reverting commit 829f54f.
+  (fix conflicts and run "git revert --continue")
+  (use "git revert --skip" to skip this patch)
+  (use "git revert --abort" to cancel the revert operation)
+
+Unmerged paths:
+  (use "git restore --staged <file>..." to unstage)
+  (use "git add/rm <file>..." as appropriate to mark resolution)
+        deleted by them: mi_archivo.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main|REVERTING)
+$ git add .
+warning: in the working copy of 'Mi_primer_Repo/mi_archivo.txt', LF will be replaced by CRLF the next time Git touches it
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main|REVERTING)
+$ git status
+On branch main
+You are currently reverting commit 829f54f.
+  (all conflicts fixed: run "git revert --continue")
+  (use "git revert --skip" to skip this patch)
+  (use "git revert --abort" to cancel the revert operation)
+
+nothing to commit, working tree clean
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main|REVERTING)
+$ git revert --abort
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git log --oneline
+5d0e943 (HEAD -> main) Agregaste 2 archivos
+829f54f lograste guardar algo
+959b798 Tercera línea
+8f5bbbc Segunda prueba
+588c652 Comenzando archivo de prueba y registro de cambios
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ mkdir "lear_revert"
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ cd lear_revert/
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/lear_revert (main)
+$ nano first.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/lear_revert (main)
+$ git add first.txt
+warning: in the working copy of 'Mi_primer_Repo/lear_revert/first.txt', LF will be replaced by CRLF the next time Git touches it
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/lear_revert (main)
+$ git commit -m "Primer commit revert"
+[main 182a537] Primer commit revert
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Mi_primer_Repo/lear_revert/first.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/lear_revert (main)
+$ nano wrong.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/lear_revert (main)
+$ git add wrong.txt
+warning: in the working copy of 'Mi_primer_Repo/lear_revert/wrong.txt', LF will be replaced by CRLF the next time Git touches it
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/lear_revert (main)
+$ git commit -m "Segundo commit revert"
+[main ffd4c39] Segundo commit revert
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Mi_primer_Repo/lear_revert/wrong.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/lear_revert (main)
+$ git log
+commit ffd4c396662e176f6e0da10e3ee215569e6facfc (HEAD -> main)
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 11:33:25 2026 -0600
+
+    Segundo commit revert
+
+commit 182a5370a147b05cc6170f14e1c1afc7d2a26269
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 11:32:22 2026 -0600
+
+    Primer commit revert
+
+commit 5d0e94312f454ba6f69fc8ef74131988f7801b96
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 11:10:32 2026 -0600
+
+    Agregaste 2 archivos
+
+commit 829f54f86a28e09840664e7ac1330b645294e1fa
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 11:04:29 2026 -0600
+
+    lograste guardar algo
+
+commit 959b798414d14b72f28ccf67b74b6c1473a626c5
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:56:21 2026 -0600
+
+    Tercera línea
+
+commit 8f5bbbc537f428f209247799a9d8578fb70cff4e
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:52:59 2026 -0600
+
+    Segunda prueba
+
+commit 588c652ac1261a9575c6c787570f88051a2cd5bd
+Author: VanitasHarkness <temiliano970@gmail.com>
+Date:   Thu Jun 18 10:49:05 2026 -0600
+
+    Comenzando archivo de prueba y registro de cambios
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/lear_revert (main)
+$ nano first.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/lear_revert (main)
+$ git add first.txt
+warning: in the working copy of 'Mi_primer_Repo/lear_revert/first.txt', LF will be replaced by CRLF the next time Git touches it
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/lear_revert (main)
+$ git commit "2da línea first"
+error: pathspec '2da línea first' did not match any file(s) known to git
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/lear_revert (main)
+$ git commit -m "2da línea first"
+[main 811b596] 2da línea first
+ 1 file changed, 1 insertion(+)
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/lear_revert (main)
+$ nani first.txt
+bash: nani: command not found
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/lear_revert (main)
+$ nano first.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/lear_revert (main)
+$ git add first.txt
+warning: in the working copy of 'Mi_primer_Repo/lear_revert/first.txt', LF will be replaced by CRLF the next time Git touches it
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/lear_revert (main)
+$ git commit -m "3ra línea first"
+[main 95969e8] 3ra línea first
+ 1 file changed, 1 insertion(+)
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/lear_revert (main)
+$ git revert HEAD~2
+[main 039915f] Revert "Segundo commit revert"
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 Mi_primer_Repo/lear_revert/wrong.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/lear_revert (main)
+$ git log --oneline
+039915f (HEAD -> main) Revert "Segundo commit revert"
+95969e8 3ra línea first
+811b596 2da línea first
+ffd4c39 Segundo commit revert
+182a537 Primer commit revert
+5d0e943 Agregaste 2 archivos
+829f54f lograste guardar algo
+959b798 Tercera línea
+8f5bbbc Segunda prueba
+588c652 Comenzando archivo de prueba y registro de cambios
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/lear_revert (main)
+$ cat first.txt
+hola hola hola
+que tal que tal
+ñiñiñiñi
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo/lear_revert (main)
+$ cd ..
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git log --oneline
+039915f (HEAD -> main) Revert "Segundo commit revert"
+95969e8 3ra línea first
+811b596 2da línea first
+ffd4c39 Segundo commit revert
+182a537 Primer commit revert
+5d0e943 Agregaste 2 archivos
+829f54f lograste guardar algo
+959b798 Tercera línea
+8f5bbbc Segunda prueba
+588c652 Comenzando archivo de prueba y registro de cambios
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ nano prueba.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   prueba.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git restore prueba.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ cat prueba.txt
+Primer archivo en el que rastrearemos cambios
+Seginda línea editada
+Tercera linea
+4ta linea
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ nano prueba.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git add prueba.txt
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   prueba.txt
+
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git commit -m "5ta línea prueba"
+[main 2e2a7cc] 5ta línea prueba
+ 1 file changed, 1 insertion(+)
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ mkdir Resultados
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ touch a.csv b.csv resultados/a.out resultados/b.out
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Resultados/
+        a.csv
+        b.csv
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ nano .gitignore
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git add .gitignore
+warning: in the working copy of 'Mi_primer_Repo/.gitignore', LF will be replaced by CRLF the next time Git touches it
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git commit -m "agregamos .gitignore"
+[main bb401ad] agregamos .gitignore
+ 1 file changed, 2 insertions(+)
+ create mode 100644 Mi_primer_Repo/.gitignore
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git status --ignored
+On branch main
+Ignored files:
+  (use "git add -f <file>..." to include in what will be committed)
+        Resultados/
+        a.csv
+        b.csv
+
+nothing to commit, working tree clean
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ touch c.csv d.csv
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ ls
+a.csv  b.csv  c.csv  d.csv  dic_prueba/  lear_revert/  mi_archivo.txt  prueba.txt  Resultados/  Subproyecto1/
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ get status
+bash: get: command not found
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ nano gitignore
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ nano .
+./          ../         .gitignore
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ nano .gitignore
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git remote add origin git@github.com:VanitasHarkness/Mi_primer_repo.git
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git remot -v
+git: 'remot' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git remote -v
+origin  git@github.com:VanitasHarkness/Mi_primer_repo.git (fetch)
+origin  git@github.com:VanitasHarkness/Mi_primer_repo.git (push)
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ ls -al~/.ssh
+ls: unknown option -- ~
+Try 'ls --help' for more information.
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ ssh-keygen -t em051106
+unknown key type em051106
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ ssh-keygen -t ed25519 -C "temiliano970@gmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/temil/.ssh/id_ed25519): emmi051106
+Enter passphrase for "emmi051106" (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in emmi051106
+Your public key has been saved in emmi051106.pub
+The key fingerprint is:
+SHA256:9wqRIAWjsfN1+24DVAwn3eJvLudTOjzevdJ1AonVRj4 temiliano970@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|  . o.. o+.. o.  |
+|   + o   o= o.o  |
+|  + . o .o + oE  |
+|   o o o.oo o  . |
+|    .  .S .. .   |
+|        .+ .o o o|
+|        ...+.o..o|
+|         o+.Oo o |
+|         .o*o+o.o|
++----[SHA256]-----+
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ ls -al~/.ssh
+ls: unknown option -- ~
+Try 'ls --help' for more information.
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ ls -al~/.ssh
+ls: unknown option -- ~
+Try 'ls --help' for more information.
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ cat ~/.ssh/id_ws25519.pub
+cat: /c/Users/temil/.ssh/id_ws25519.pub: No such file or directory
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ ls -al~/.ssh
+ls: unknown option -- ~
+Try 'ls --help' for more information.
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ cat ~/.ssh/id_ws25519.pub
+cat: /c/Users/temil/.ssh/id_ws25519.pub: No such file or directory
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ ssh -T git@github.com
+The authenticity of host 'github.com (140.82.112.3)' can't be established.
+ED25519 key fingerprint is: SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$ git push origin main
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+temil@Vanitas MINGW64 ~/Documents/curso_intersemestral/Mi_primer_Repo (main)
+$
